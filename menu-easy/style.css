@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    flex: 1;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgb(231, 227, 227);
+}
+
+li:first-child {
+    background-color: grey;
+    color: white;
+}
