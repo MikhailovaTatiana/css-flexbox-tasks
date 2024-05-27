@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.bg {
+    width: 16rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.circle {
+    width: 6.3rem;
+    height: 6.3rem;
+    border-radius: 50%;
+    background-color: rgb(197, 24, 24);   
+}
