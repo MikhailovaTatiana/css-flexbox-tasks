@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 5px;
+    background-color: rgb(231, 227, 227);
+}
+
+li {
+    flex: 1;
+    text-align: left;
+    font-size: 15px;
+    color: gray;
+}
+
+li:first-child {
+    flex: 3;
+    text-align: left;
+}
+
+img {
+    height: auto;
+    width: 3rem;
+}
+
+li:last-child {
+    flex: 3;
+    text-align: right;
+}
+
+button {
+    height: 0.9rem;
+    width: auto;
+    font-size: xx-small;
+    color: gray;
+}
