@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article {
+    width: 50%;
+    height: 40px;
+    display: flex;
+}
+
+.first {
+    background: linear-gradient(90deg, brown, green);
+}
+
+.second {
+    background: linear-gradient(90deg, green, brown);
+}
+
+section {
+    border: 1px solid rgb(98, 10, 10);
+    color:rgb(202, 202, 163);
+    font-size: xx-small;
+}
+
+.part1 {flex: 0;}
+.part2 {flex: 1;}
+.part3 {flex: 1;}
+.part4 {flex: 2;}
+.part5 {flex: 3;}
+.part6 {flex: 5;}
+.part7 {flex: 8;}
+.part8 {flex: 13;}
+.part9 {flex: 21;}
+.part10 {flex: 34;}
