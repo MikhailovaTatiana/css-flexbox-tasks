@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+main {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+article {
+    background-color: rgb(240, 245, 249);
+    width: 210px;
+    height: 300px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.citation {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 700;
+    padding-top: 45%;
+}
+
+.author {
+    font-size: 11px;
+    color: rgb(185, 181, 181);
+    padding-top: .8rem;
+}
+
+.dots {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+}
+
+a {
+    border: .15rem solid rgb(189, 184, 184);
+    border-radius: 50%;
+}
+
+a.active {
+    border: .15rem solid rgb(15, 12, 12);
+}
